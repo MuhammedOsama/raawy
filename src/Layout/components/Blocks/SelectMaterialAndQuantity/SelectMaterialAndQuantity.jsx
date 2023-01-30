@@ -51,7 +51,7 @@ export default function SelectMaterialAndQuantity() {
                         <div className="card-total">
                             <span className="card-total-title">الإجمالي</span>
                             <span className="card-total-price">79 ريال</span>
-                            <NavLink to="/add-data" className="total-btn">
+                            <NavLink to="/recipient-data" className="total-btn">
                                 <button className="card-total-btn">تأكيد الطلب</button>
                             </NavLink>
                         </div>

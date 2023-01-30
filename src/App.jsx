@@ -33,6 +33,7 @@ import DataSelection from "./Layout/components/Blocks/DataSelection/DataSelectio
 
 // route
 import {Routes, Route} from "react-router-dom";
+import RecipientData from "./Layout/components/Blocks/RecipientData/RecipientData";
 
 export default function App() {
     let [loginUser, setLoginUser] = useState(null);
@@ -71,6 +72,7 @@ export default function App() {
             <Route path="/select-material-and-quantity" element={<SelectMaterialAndQuantity/>}/>
             <Route path="/add-data" element={<AddData/>}/>
             <Route path="/data-selection" element={<DataSelection/>}/>
+            <Route path="/recipient-data" element={<RecipientData/>}/>
         </Routes>
         <Footer loginUser={loginUser}/>
     </div>
