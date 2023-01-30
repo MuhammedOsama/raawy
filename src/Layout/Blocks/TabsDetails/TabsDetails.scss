@@ -1,0 +1,23 @@
+@import "../../styles/variables";
+
+#tabs {
+  .nav-link {
+    color: $tabsColor;
+
+    @media (max-width: 449px) {
+      font-size: 13px;
+    }
+
+    @media (max-width: 375px) {
+      font-size: 10px;
+    }
+
+    @media (max-width: 320px) {
+      font-size: 7px;
+    }
+  }
+
+  .active {
+    color: $secondaryColor;
+  }
+}

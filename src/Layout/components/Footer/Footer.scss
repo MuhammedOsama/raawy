@@ -1,0 +1,51 @@
+@import "../../styles/variables";
+
+#footer {
+  padding: 40px;
+  background-image: url("../../../../public/images/FooterBackground.png");
+
+  .col-lg-3 {
+    margin-top: 24px;
+
+    .logo {
+      img {
+        width: 200px;
+      }
+    }
+
+    .content {
+      color: $whiteColor;
+
+      .content-title {
+        font-size: 24px;
+        margin-bottom: 16px;
+        font-family: "Bold", sans-serif;
+      }
+
+      .content-list {
+        .order-link {
+          text-decoration: none;
+
+          .content-list-item {
+            margin-bottom: 12px;
+            color: $whiteColor;
+
+            .phone-icon {
+              margin-left: 8px;
+              transform: rotate(450deg);
+            }
+          }
+        }
+      }
+    }
+
+    .content-icons {
+      .social-icon {
+        display: inline-block;
+        font-size: 24px;
+        color: #fff;
+        margin-left: 24px;
+      }
+    }
+  }
+}

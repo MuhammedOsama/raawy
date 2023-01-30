@@ -1,0 +1,90 @@
+@import "../../../styles/variables";
+
+#final-request {
+  .card {
+    border: none;
+    box-shadow: 1px 1px 10px 1px $navBorderColor;
+    padding: 24px;
+    background: $minusColor;
+
+    .card-title {
+      padding-bottom: 16px;
+      border-bottom: 1px solid $navBorderColor;
+      font-size: 16px;
+      font-family: "Bold", sans-serif;
+    }
+
+    .card-value {
+      margin-top: 16px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid $navBorderColor;
+
+      .discount {
+        width: 100%;
+        margin-bottom: 24px;
+
+        .discount-coupon {
+          width: 80%;
+          border: none;
+          outline: none;
+          padding: 16px 24px;
+          border-radius: 0 10px 10px 0;
+        }
+
+        .btn-add-discount {
+          width: 20%;
+          border: none;
+          padding: 16px 0;
+          color: $whiteColor;
+          background: linear-gradient(to top, $mainColor, $secondaryColor);
+          border-radius: 10px 0 0 10px;
+        }
+      }
+
+      .values {
+        .process-value {
+          margin-bottom: 16px;
+          font-size: 18px;
+          color: $notificationTextColor;
+
+          .process-value-price {
+            font-size: 16px;
+            float: left;
+          }
+        }
+
+        .process-value:last-child {
+          margin: 0;
+        }
+      }
+    }
+
+    .card-total {
+      margin-top: 16px;
+      font-size: 18px;
+      color: $mainColor;
+      font-family: "Bold", sans-serif;
+
+      .card-total-price {
+        float: left;
+        font-size: 16px;
+      }
+
+      .total-btn {
+        text-decoration: none;
+
+        .card-total-btn {
+          display: block;
+          margin: 24px auto 0;
+          padding: 12px 64px;
+          background: linear-gradient(to top, $mainColor, $secondaryColor);
+          font-size: 16px;
+          color: $whiteColor;
+          border: none;
+          border-radius: 32px 32px 32px 0;
+          font-family: "Bold", sans-serif;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import "../../styles/variables";
+
+#logout-modal {
+  display: inline-block;
+
+  .btn-modal {
+    background: transparent;
+    border: none;
+    color: $logoutColor;
+  }
+}

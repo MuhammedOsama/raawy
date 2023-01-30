@@ -1,0 +1,63 @@
+@import "../../../styles/variables";
+
+#offer-details {
+  margin: 40px 0;
+
+  .container {
+    .offer {
+      color: $mainColor;
+      margin-bottom: 16px;
+
+      .offer-name {
+        color: $mainColor;
+        text-decoration: none;
+
+        .offer-icon {
+          margin-left: 8px;
+        }
+      }
+    }
+
+    .content {
+      .content-title {
+        margin-bottom: 24px;
+        font-size: 24px;
+        font-family: "Bold", sans-serif;
+      }
+
+      .content-logo {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 70px;
+        }
+
+        .date {
+          margin-right: 16px;
+
+          .date-offer {
+            font-size: 16px;
+            margin-bottom: 12px;
+            font-family: "Bold", sans-serif;
+          }
+
+          .date-available {
+            font-size: 14px;
+            color: $hintColor;
+
+          }
+        }
+      }
+
+      .content-desc {
+        margin-top: 24px;
+
+        .details {
+          font-size: 16px;
+          color: $notificationTextColor;
+        }
+      }
+    }
+  }
+}

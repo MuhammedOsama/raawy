@@ -1,0 +1,30 @@
+@import "../../../styles/variables";
+
+#order-details {
+  margin: 40px 0;
+
+  .col-lg-9 {
+    margin: 24px 0;
+
+    .order {
+      color: $mainColor;
+      margin-bottom: 16px;
+
+      .order-name {
+        color: $mainColor;
+        text-decoration: none;
+
+        .order-icon {
+          margin-left: 8px;
+        }
+      }
+    }
+
+    .content {
+      .content-title {
+        font-size: 24px;
+        font-family: "Bold", sans-serif;
+      }
+    }
+  }
+}

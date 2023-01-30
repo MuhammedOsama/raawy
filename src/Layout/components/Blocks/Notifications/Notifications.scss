@@ -1,0 +1,57 @@
+@import "../../../styles/variables";
+
+#notifications {
+  margin: 40px 0;
+
+  .container {
+    .main-heading {
+      .title-heading {
+        font-size: 28px;
+        margin-bottom: 24px;
+        font-family: "Bold", sans-serif;
+      }
+    }
+
+    .content {
+      .content-date {
+        margin-bottom: 16px;
+        font-size: 18px;
+      }
+
+      .msg-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 24px;
+        margin-bottom: 16px;
+
+        @media (max-width: 449px) {
+          display: block;
+        }
+
+        .msg-details {
+          margin: 0;
+          font-size: 16px;
+
+          @media (max-width: 449px) {
+            margin-bottom: 8px;
+          }
+        }
+
+        .msg-time {
+          font-size: 14px;
+          color: $notificationTimeColor;
+        }
+      }
+
+      .active {
+        background: $notificationsBackgroundColor;
+        border-radius: 8px;
+      }
+
+      .msg-content:last-child {
+        margin: 0;
+      }
+    }
+  }
+}

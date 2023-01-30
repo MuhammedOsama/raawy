@@ -1,0 +1,183 @@
+@import "../../styles/variables";
+
+#navbar {
+  border-bottom: 1px solid $navBorderColor;
+  background-color: $backgroundColor;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .container {
+    .nav {
+      font-family: "Bold", sans-serif;
+
+      @media (max-width: 992px) {
+        display: block;
+        margin-right: 24px;
+      }
+
+      .notification-dropdown {
+        .notification-date {
+          color: $blackColor;
+          font-size: 18px;
+        }
+
+        .msg-content {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 16px;
+
+          @media (max-width: 449px) {
+            display: none;
+          }
+
+          .msg-desc {
+            font-size: 14px;
+            color: $notificationTextColor;
+            padding: 16px;
+            margin: 0;
+          }
+
+          .msg-time {
+            font-size: 14px;
+            color: $notificationTimeColor;
+
+          }
+        }
+
+        .active {
+          background: $notificationsBackgroundColor;
+          border-radius: 5px;
+        }
+
+        .view-all {
+          display: block;
+          font-size: 16px;
+          text-align: center;
+          margin-top: 16px;
+          color: $secondaryColor;
+        }
+      }
+
+      .notification-dropdown > .dropdown-menu {
+        border: none;
+        box-shadow: 1px 1px 10px 1px $navBorderColor;
+        width: 600px;
+        padding: 24px;
+
+        @media (max-width: 449px) {
+          width: 260px;
+        }
+      }
+
+      .dropdown {
+        .dropdown-toggle {
+          background: transparent;
+          color: $mainColor;
+          border: none;
+        }
+
+        .dropdown-toggle::after {
+          display: none;
+        }
+      }
+
+      svg:not(:root).svg-inline--fa {
+        margin-right: 8px;
+        @media (max-width: 320px) {
+          font-size: 12px;
+        }
+      }
+
+      svg:not(:root).svg-inline--fa:first-child {
+        margin: 0;
+      }
+
+      .item-name {
+        margin-left: 32px;
+        color: $mainColor;
+        margin-top: 6px;
+        text-decoration: none;
+
+        @media (max-width: 992px) {
+          display: block;
+          margin-bottom: 24px;
+        }
+
+        @media (max-width: 320px) {
+          font-size: 12px;
+        }
+      }
+
+      .item-name:last-child {
+        margin: 0;
+      }
+
+      .profile-dropdown {
+        .profile-pic {
+          width: 28px;
+          border-radius: 50%;
+        }
+
+        svg:not(:root).svg-inline--fa {
+          color: $blackColor;
+        }
+
+        .dropdown-menu {
+          width: 180px;
+          padding: 16px;
+
+          .dropdown-item {
+            margin-bottom: 16px;
+
+            .profile-details {
+              font-size: 14px;
+              color: $secondaryColor;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+
+    .lang-dropdown {
+      .toggle {
+        .saudi-logo {
+          width: 28px;
+          margin-left: 8px;
+        }
+
+        .drop-title {
+          @media (max-width: 320px) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .dropdown-menu.show {
+      border: none;
+      box-shadow: 1px 1px 10px 1px $navBorderColor;
+      right: 8px;
+      text-align: right;
+
+      .input-type {
+        margin-left: 8px;
+        accent-color: $secondaryColor;
+      }
+    }
+
+    .dropdown-toggle::after {
+      margin-right: 8px;
+    }
+  }
+
+  .logo {
+    width: 200px;
+
+    @media (max-width: 499px) {
+      width: 150px;
+    }
+  }
+}

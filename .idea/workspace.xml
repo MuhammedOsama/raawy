@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8f0a5d6-1eee-4e64-ac69-aa0b6c3b35db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/ContactUs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Data.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Donate1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Donate2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Donate3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Donate4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Donate5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Donate6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/DonatesLocations.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/FooterBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/MasterCard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/NewPassword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/OTPCode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/OfferDetails.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/OfferLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Pay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/ProfilePic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/RaawyLogo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/RaawyWhiteLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Rosary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Rug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Saudi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/SignIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/SignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Water.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/WhoAreWe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Blocks/Conditions/Conditions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Blocks/Conditions/Conditions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Blocks/DonatesLocations/DonatesLocations.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Blocks/DonatesLocations/DonatesLocations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Blocks/LogoutModal/LogoutModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Blocks/LogoutModal/LogoutModal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Blocks/PersonalProfile/PersonalProfile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Blocks/PersonalProfile/PersonalProfile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Blocks/Slider/Slider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Blocks/Slider/Slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Blocks/TabsContent/TabsContent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Blocks/TabsContent/TabsContent.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Blocks/TabsDetails/TabsDetails.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/Blocks/TabsDetails/TabsDetails.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/AddData/AddData.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/AddData/AddData.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/AddFasting/AddFasting.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/AddFasting/AddFasting.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/AddFastingBreakfast/AddFastingBreakfast.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/AddFastingBreakfast/AddFastingBreakfast.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/BreakFastOfFasting/BreakFastOfFasting.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/CardOrderDetails/CardOrderDetails.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/CardOrderDetails/CardOrderDetails.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/Charities/Charities.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/Charities/Charities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/ContactUs/ContactUs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/ContactUs/ContactUs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/DataPay/DataPay.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/DataPay/DataPay.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/DataPayBody/DataPayBody.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/DataPayBody/DataPayBody.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/DataPayHeader/DataPayHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/DataPayHeader/DataPayHeader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/DataSelection/DataSelection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/DataSelection/DataSelection.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/FastingBreakfast/FastingBreakfast.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/FastingBreakfast/FastingBreakfast.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/FastingHeader/FastingHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/FastingHeader/FastingHeader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/FinalRequest/FinalRequest.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/FinalRequest/FinalRequest.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/Mosques/Mosques.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/Mosques/Mosques.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/MultiFasting/MultiFasting.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/Notifications/Notifications.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/Notifications/Notifications.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/OderDetails/OderDetails.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/OderDetails/OderDetails.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/OfferDetails/OfferDetails.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/OfferDetails/OfferDetails.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/Offers/Offers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/Offers/Offers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/OrdersInfo/OrdersInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/OrdersInfo/OrdersInfo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/Orphanage/Orphanage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/Orphanage/Orphanage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/SelectMaterialAndQuantity/SelectMaterialAndQuantity.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/SelectMaterialAndQuantity/SelectMaterialAndQuantity.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/SummaryRequest/SummaryRequest.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Blocks/SummaryRequest/SummaryRequest.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Donates/Donates.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Donates/Donates.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Footer/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Footer/Footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/MainBackground/MainBackground.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/MainBackground/MainBackground.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/MainNavbar/MainNavbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/MainNavbar/MainNavbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/NewPassword/NewPassword.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/NewPassword/NewPassword.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/OTPCode/OTPCode.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/OTPCode/OTPCode.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/ResetPassword/ResetPassword.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/ResetPassword/ResetPassword.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/SignIn/SignIn.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/SignIn/SignIn.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/SignUp/SignUp.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/SignUp/SignUp.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/WhoAreWe/WhoAreWe.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/WhoAreWe/WhoAreWe.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/styles/Main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/styles/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/styles/assets/fonts/FFShamelFamily-SansOneBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/styles/assets/fonts/FFShamelFamily-SansOneBook.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/styles/assets/fonts/readme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Sass File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JlEzXpMMWv5f10QhIHE8es1Z2N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/muhammedosama/Documents/Moltaqa Tech/Raawy&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/Layout/style/assets" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Layout/components/Blocks" />
+      <recent name="$PROJECT_DIR$/src/Layout/Blocks" />
+      <recent name="$PROJECT_DIR$/src/Layout/Blocks/LogoutModal" />
+      <recent name="$PROJECT_DIR$/src/Layout/components" />
+      <recent name="$PROJECT_DIR$/src/Layout" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.Mosques.jsx">
+    <configuration name="otpSignUp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Raawy/otpSignUp.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Mosques.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Layout/components/Blocks/Mosques/Mosques.jsx" working-dir="$PROJECT_DIR$/src/Layout/components/Blocks/Mosques">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Mosques.jsx" />
+        <item itemvalue="JavaScript Debug.otpSignUp.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8f0a5d6-1eee-4e64-ac69-aa0b6c3b35db" name="Changes" comment="" />
+      <created>1672644531777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672644531777</updated>
+      <workItem from="1672644532886" duration="22633000" />
+      <workItem from="1672731428912" duration="3657000" />
+      <workItem from="1672736210801" duration="17396000" />
+      <workItem from="1672817073835" duration="24580000" />
+      <workItem from="1672889917141" duration="5035000" />
+      <workItem from="1672903870144" duration="17446000" />
+      <workItem from="1673065135757" duration="313000" />
+      <workItem from="1673250288934" duration="22538000" />
+      <workItem from="1673335411055" duration="22380000" />
+      <workItem from="1673422268005" duration="19752000" />
+      <workItem from="1673508572780" duration="19281000" />
+      <workItem from="1673766686213" duration="13860000" />
+      <workItem from="1673854910635" duration="16139000" />
+      <workItem from="1673890584182" duration="1270000" />
+      <workItem from="1673940374190" duration="17940000" />
+      <workItem from="1674027059130" duration="12258000" />
+      <workItem from="1674052813944" duration="56000" />
+      <workItem from="1674052933406" duration="3426000" />
+      <workItem from="1674114130610" duration="5003000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

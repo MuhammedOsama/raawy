@@ -1,0 +1,122 @@
+@import "../../styles/variables";
+
+#personal-profile {
+  margin: 40px 0;
+
+  .card {
+    margin: 24px 0;
+
+    .content {
+      margin: 24px 0;
+
+      .logo {
+        display: block;
+        text-align: center;
+        position: relative;
+        margin-bottom: 24px;
+
+        img {
+          width: 120px;
+          border-radius: 50%;
+        }
+
+        .camera-icon {
+          position: absolute;
+          bottom: 0;
+          left: 424px;
+          background: $whiteColor;
+          padding: 5px;
+          box-shadow: 1px 1px 10px 1px $navBorderColor;
+          color: $mainColor;
+          border-radius: 50%;
+
+          @media (max-width: 1200px) {
+            left: 290px;
+          }
+
+          @media (max-width: 449px) {
+            left: 140px;
+          }
+
+          @media (max-width: 375px) {
+            left: 120px;
+          }
+
+          @media (max-width: 320px) {
+            left: 90px;
+          }
+        }
+      }
+
+      .content-form {
+        text-align: center;
+
+        form {
+          .input-form-content {
+            margin-bottom: 16px;
+
+            .input-name {
+              display: block;
+              font-size: 14px;
+              margin-bottom: 8px;
+              text-align: right;
+              margin-right: 195px;
+
+              @media (max-width: 1200px) {
+                margin-right: 80px;
+              }
+
+              @media (max-width: 992px) {
+                margin-right: 50px;
+              }
+
+              @media (max-width: 449px) {
+                margin-right: 20px;
+              }
+            }
+
+            .input-type {
+              height: 62px;
+              width: 579px;
+              border-color: $borderColor;
+              border-radius: 10px;
+              outline: none;
+              padding: 0 24px;
+
+              @media (max-width: 1200px) {
+                width: 550px;
+              }
+
+              @media (max-width: 992px) {
+                width: 600px;
+              }
+
+              @media (max-width: 449px) {
+                width: 360px;
+              }
+
+              @media (max-width: 375px) {
+                width: 320px;
+              }
+
+              @media (max-width: 320px) {
+                width: 280px;
+              }
+            }
+          }
+
+          .btn-edit {
+            margin-top: 24px;
+            padding: 12px 64px;
+            background: linear-gradient(to top, $mainColor, $secondaryColor);
+            font-size: 14px;
+            color: $whiteColor;
+            border: none;
+            border-radius: 32px 32px 32px 0;
+            font-family: "Bold", sans-serif;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+@import "../../../styles/variables";
+
+#fasting-breakfast {
+  .content {
+    .card {
+      margin-top: 16px;
+      padding: 24px;
+      box-shadow: 1px 1px 10px 1px $navBorderColor;
+
+      @media (max-width: 449px) {
+        padding: 16px;
+      }
+
+      .card-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 24px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid $navBorderColor;
+
+        .card-item {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .logo {
+            margin-left: 12px;
+
+            img {
+              width: 100px;
+
+              @media (max-width: 449px) {
+                width: 60px;
+              }
+
+              @media (max-width: 375px) {
+                width: 50px;
+              }
+            }
+          }
+
+          .details {
+            .details-title {
+              font-size: 18px;
+              margin-bottom: 8px;
+
+              @media (max-width: 449px) {
+                font-size: 16px;
+              }
+
+              @media (max-width: 375px) {
+                font-size: 14px;
+              }
+
+              @media (max-width: 320px) {
+                font-size: 12px;
+                margin-bottom: 8px;
+              }
+            }
+
+            .details-price {
+              color: $mainColor;
+              font-size: 14px;
+              font-family: "Bold", sans-serif;
+
+              @media (max-width: 449px) {
+                font-size: 12px;
+              }
+
+              @media (max-width: 375px) {
+                font-size: 10px;
+              }
+
+              @media (max-width: 320px) {
+                font-size: 8px;
+              }
+            }
+          }
+        }
+
+        .card-count {
+          display: flex;
+          align-items: center;
+
+          .card-count-icon {
+            background: $mainColor;
+            padding: 12px;
+            font-size: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+
+            @media (max-width: 449px) {
+              padding: 8px;
+              font-size: 8px;
+            }
+
+            @media (max-width: 375px) {
+              padding: 5px;
+              font-size: 5px;
+            }
+          }
+
+          .plus {
+            color: $whiteColor;
+          }
+
+          .minus {
+            background: $minusColor;
+          }
+
+          .card-count-number {
+            margin: 0 16px;
+            font-family: "Bold", sans-serif;
+
+            @media (max-width: 449px) {
+              margin: 0 8px;
+              font-size: 14px;
+            }
+          }
+        }
+
+        .card-remove {
+          .card-remove-icon {
+            font-size: 22px;
+            color: $deleteColor;
+
+            @media (max-width: 449px) {
+              font-size: 18px;
+            }
+
+            @media (max-width: 375px) {
+              font-size: 16px;
+            }
+
+            @media (max-width: 320px) {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+
+      .card-content:last-child {
+        margin: 0;
+        padding: 0;
+        border: none;
+      }
+    }
+  }
+}

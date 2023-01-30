@@ -1,0 +1,102 @@
+@import "../../../styles/variables";
+
+#contact-us {
+  margin: 40px 0;
+  text-align: center;
+
+  .contact-content {
+    background: $ContactUsBackgroundColor;
+    padding: 64px 0;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 15px;
+
+    @media (max-width: 992px) {
+      max-width: 600px;
+    }
+
+    @media (max-width: 449px) {
+      max-width: 380px;
+    }
+
+    @media (max-width: 375px) {
+      max-width: 350px;
+    }
+
+    @media (max-width: 320px) {
+      max-width: 300px;
+    }
+
+    .logo {
+      margin-bottom: 24px;
+
+      @media (max-width: 449px) {
+        display: none;
+      }
+
+      img {
+        width: 400px;
+      }
+    }
+
+    .content {
+      .content-details {
+        margin-bottom: 24px;
+
+        .content-title {
+          font-size: 24px;
+          font-family: "Bold", sans-serif;
+          margin-bottom: 16px;
+
+          @media (max-width: 320px) {
+            font-size: 22px;
+          }
+        }
+
+        .content-desc {
+          font-size: 18px;
+
+          @media (max-width: 320px) {
+            font-size: 16px;
+          }
+        }
+      }
+
+      .content-icons {
+        margin-bottom: 24px;
+
+        .social-icon {
+          margin: 0 16px;
+          font-size: 18px;
+        }
+
+        .facebook {
+          color: $facebookColor;
+        }
+
+        .instagram {
+          color: $instagramColor;
+        }
+
+        .youtube {
+          color: $youtubeColor;
+        }
+
+        .snapchat {
+          color: $snapchatColor;
+        }
+      }
+
+      .contact-number {
+        color: $notificationTextColor;
+        font-size: 18px;
+
+        .phone-icon {
+          color: $mainColor;
+          transform: rotate(450deg);
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}

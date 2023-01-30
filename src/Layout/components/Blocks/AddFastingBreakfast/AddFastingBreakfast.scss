@@ -1,0 +1,38 @@
+@import "../../../styles/variables";
+
+#add-fasting-breakfast {
+  .container {
+    .fasting {
+      padding: 24px 24px 0 0;
+      color: $mainColor;
+
+      .fasting-name {
+        color: $mainColor;
+        text-decoration: none;
+
+        .fasting-icon {
+          margin-left: 8px;
+        }
+      }
+
+      .fasting-title {
+        font-size: 24px;
+        font-family: "Bold", sans-serif;
+        color: $blackColor;
+        margin-top: 32px;
+      }
+    }
+
+    .col-lg-8 {
+      margin-bottom: 24px;
+    }
+
+    .col-lg-4 {
+      margin-top: 16px;
+
+      @media (max-width: 992px) {
+        margin-bottom: 24px;
+      }
+    }
+  }
+}

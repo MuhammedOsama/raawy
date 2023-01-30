@@ -1,0 +1,26 @@
+@import "../../../styles/variables";
+
+#fasting-header {
+  padding-top: 24px;
+
+  .fasting {
+    color: $mainColor;
+    margin-bottom: 24px;
+
+    .fasting-name {
+      color: $mainColor;
+      text-decoration: none;
+
+      .fasting-icon {
+        margin-left: 8px;
+      }
+    }
+
+    .fasting-title {
+      font-size: 24px;
+      font-family: "Bold", sans-serif;
+      color: $blackColor;
+      margin-top: 32px;
+    }
+  }
+}

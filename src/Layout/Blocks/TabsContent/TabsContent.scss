@@ -1,0 +1,101 @@
+@import "../../styles/variables";
+
+#tabs-content {
+  margin-top: 24px;
+
+  .order-tabs-content {
+    text-decoration: none;
+
+    .card {
+      margin-bottom: 16px;
+      box-shadow: 1px 1px 10px 1px $navBorderColor;
+      padding: 24px;
+      border: none;
+      max-height: 295px;
+
+      .card-number {
+        font-size: 32px;
+        color: $blackColor;
+        font-family: "Bold", sans-serif;
+        margin-bottom: 16px;
+
+        @media (max-width: 449px) {
+          font-size: 28px;
+        }
+
+        @media (max-width: 375px) {
+          font-size: 22px;
+        }
+
+        @media (max-width: 320px) {
+          font-size: 20px;
+        }
+      }
+
+      .card-content {
+        .card-content-list {
+          .list-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+
+            .list-icon-item {
+              color: $hintColor !important;
+              font-size: 22px;
+
+              @media (max-width: 449px) {
+                font-size: 18px;
+              }
+
+              @media (max-width: 375px) {
+                font-size: 16px;
+              }
+            }
+
+            .list-item-type {
+              margin: 0 8px;
+              color: $notificationTextColor;
+              font-size: 18px;
+
+              @media (max-width: 449px) {
+                font-size: 16px;
+              }
+
+              @media (max-width: 375px) {
+                font-size: 14px;
+              }
+
+              @media (max-width: 320px) {
+                font-size: 12px;
+              }
+            }
+
+            .list-item-value {
+              color: $notificationTextColor;
+
+              @media (max-width: 449px) {
+                font-size: 14px;
+              }
+
+              @media (max-width: 375px) {
+                font-size: 11px;
+              }
+
+              @media (max-width: 320px) {
+                font-size: 8px;
+              }
+
+              .currency {
+                font-family: "Bold", sans-serif;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .card:last-child {
+      margin: 0;
+    }
+  }
+}

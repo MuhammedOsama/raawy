@@ -1,0 +1,21 @@
+@import "../../../styles/variables";
+
+#add-fasting {
+  margin: 64px 0 64px 24px;
+  text-align: left;
+
+  .add {
+    padding: 12px 128px;
+    background: linear-gradient(to top, $mainColor, $secondaryColor);
+    font-size: 14px;
+    color: $whiteColor;
+    border: none;
+    border-radius: 32px 32px 32px 0;
+    font-family: "Bold", sans-serif;
+    text-decoration: none;
+
+    @media (max-width: 449px) {
+      padding: 12px 80px;
+    }
+  }
+}

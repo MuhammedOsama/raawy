@@ -1,0 +1,93 @@
+@import "../../styles/variables";
+
+#main-background {
+  margin-bottom: 70px;
+
+  #main-background .carousel .carousel-indicators button {
+    color: red !important;
+  }
+
+  .carousel {
+    .carousel-indicators {
+      margin: 0;
+      inset: 72% -72% 0 0;
+
+      @media (max-width: 992px) {
+        top: 80%;
+      }
+
+      @media (max-width: 414px) {
+        right: 0;
+      }
+
+      button {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background-color: $navBorderColor;
+        opacity: 1;
+
+        @media (max-width: 414px) {
+          width: 14px;
+          height: 14px;
+        }
+      }
+
+      .active {
+        background-color: $mainColor;
+      }
+    }
+
+    .carousel-inner {
+      .carousel-item {
+        .banner {
+          display: block;
+          width: 100%;
+        }
+
+        .carousel-caption {
+          color: $blackColor;
+          max-width: 400px;
+          text-align: right;
+          inset: 15% 8% 0 0;
+
+          @media (max-width: 992px) {
+            max-width: 375px;
+          }
+
+          @media (max-width: 414px) {
+            display: none;
+          }
+
+          .carousel-caption-title {
+            font-size: 42px;
+            font-family: "Bold", sans-serif;
+            margin: 0;
+
+            @media (max-width: 992px) {
+              font-size: 32px;
+            }
+          }
+
+          .carousel-caption-desc {
+            font-size: 18px;
+            margin: 16px 0 24px;
+
+            @media (max-width: 992px) {
+              font-size: 16px;
+            }
+          }
+
+          .carousel-caption-btn {
+            border: none;
+            padding: 16px 64px;
+            background: linear-gradient(to top, $mainColor, $secondaryColor);
+            color: $whiteColor;
+            font-family: "Bold", sans-serif;
+            border-radius: 32px 32px 32px 0;
+          }
+        }
+      }
+    }
+  }
+}

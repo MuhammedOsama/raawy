@@ -1,0 +1,17 @@
+@import "../../styles/variables";
+
+#conditions {
+  margin: 40px 0;
+
+  .conditions-title {
+    margin-top: 24px;
+    font-size: 24px;
+    font-family: "Bold", sans-serif;
+    margin-bottom: 24px;
+  }
+
+  .conditions-desc {
+    font-size: 16px;
+    color: $conditionsColor;
+  }
+}

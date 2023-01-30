@@ -1,0 +1,122 @@
+@import "../../../styles/variables";
+
+#add-data {
+  margin: 24px 0;
+
+  .container {
+    .data-header {
+      color: $mainColor;
+
+      .data-header-name {
+        color: $mainColor;
+        text-decoration: none;
+
+        .material-icon {
+          margin-left: 8px;
+        }
+      }
+
+      .data-header-title {
+        font-size: 24px;
+        font-family: "Bold", sans-serif;
+        color: $blackColor;
+        margin-top: 32px;
+      }
+    }
+
+    .col-lg-6 {
+      .card {
+        margin-top: 16px;
+        padding: 24px;
+        box-shadow: 1px 1px 10px 1px $navBorderColor;;
+        border: none;
+
+        .input-form-content {
+          margin-bottom: 16px;
+
+          .input-name {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 16px;
+          }
+
+          .input-type,
+          .text-type {
+            width: 100%;
+            height: 62px;
+            border: 1px solid $borderColor;
+            border-radius: 10px;
+            outline: none;
+            padding: 16px;
+          }
+
+          .text-type {
+            resize: none;
+            height: 125px;
+          }
+        }
+
+        .card-radio {
+          margin-bottom: 24px;
+
+          .input-name {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 16px;
+          }
+
+          .card-radio-option {
+            display: flex;
+
+            .radio-option {
+              margin-left: 64px;
+
+              @media (max-width: 320px) {
+                margin-left: 32px;
+              }
+
+              .radio-input {
+                margin-left: 8px;
+                accent-color: $mainColor;
+              }
+            }
+
+            .radio-option:last-child {
+              margin: 0;
+            }
+          }
+        }
+
+        .btn-done {
+          margin: auto;
+
+          .done {
+            padding: 12px 128px;
+            background: linear-gradient(to top, $mainColor, $secondaryColor);
+            font-size: 14px;
+            color: $whiteColor;
+            border: none;
+            border-radius: 32px 32px 32px 0;
+            font-family: "Bold", sans-serif;
+
+            @media (max-width: 320px) {
+              padding: 12px 102px;
+            }
+          }
+        }
+      }
+
+      .logo {
+        text-align: center;
+
+        img {
+          width: 400px;
+
+          @media (max-width: 992px) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

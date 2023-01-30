@@ -1,0 +1,82 @@
+@import "../../../styles/variables";
+
+#card-order-details {
+  margin-bottom: 24px;
+
+  .card {
+    box-shadow: 1px 1px 10px 1px $navBorderColor;
+    border: none;
+    padding: 24px;
+
+    .card-title {
+      font-size: 18px;
+      font-family: "Bold", sans-serif;
+      margin-bottom: 24px;
+    }
+
+    .card-content-list {
+      padding: 0;
+
+      .list-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+
+        .list-icon-item {
+          color: $hintColor !important;
+          font-size: 22px;
+
+          @media (max-width: 449px) {
+            font-size: 18px;
+          }
+
+          @media (max-width: 375px) {
+            font-size: 16px;
+          }
+        }
+
+        .list-item-type {
+          margin: 0 8px;
+          color: $notificationTextColor;
+          font-size: 18px;
+
+          @media (max-width: 449px) {
+            font-size: 16px;
+          }
+
+          @media (max-width: 375px) {
+            font-size: 14px;
+          }
+
+          @media (max-width: 320px) {
+            font-size: 12px;
+          }
+        }
+
+        .list-item-value {
+          color: $notificationTextColor;
+
+          @media (max-width: 449px) {
+            font-size: 14px;
+          }
+
+          @media (max-width: 375px) {
+            font-size: 11px;
+          }
+
+          @media (max-width: 320px) {
+            font-size: 8px;
+          }
+
+          .currency {
+            font-family: "Bold", sans-serif;
+          }
+        }
+      }
+
+      .list-item:last-child {
+        margin: 0;
+      }
+    }
+  }
+}

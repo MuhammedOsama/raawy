@@ -1,0 +1,109 @@
+@import "../../../styles/variables";
+
+#data-pay-body {
+  .card {
+    margin: auto;
+    max-width: 800px;
+    padding: 24px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px $navBorderColor;
+    background: $sliderBackgroundColor;
+
+    .schedule-request-card {
+      .pay-way,
+      .schedule-request {
+        padding-top: 24px;
+
+        .schedule-title {
+          font-size: 16px;
+          font-family: "Bold", sans-serif;
+          margin-bottom: 16px;
+        }
+
+        .radio-form {
+          .radio-option {
+            display: inline-block;
+            margin-left: 128px;
+
+            @media (max-width: 414px) {
+              margin-bottom: 16px;
+            }
+
+            @media (max-width: 320px) {
+              margin-left: 24px;
+            }
+
+            .radio-input {
+              margin-left: 4px;
+              accent-color: $mainColor;
+            }
+
+            .pay-way-image {
+              width: 60px;
+            }
+          }
+
+          .radio-option:last-child {
+            margin: 0;
+          }
+        }
+      }
+
+      .pay-way {
+        border-bottom: 1px solid $navBorderColor;
+        padding-bottom: 24px;
+      }
+
+      .schedule-request {
+        .radio-form {
+          margin-bottom: 24px;
+        }
+      }
+
+      .schedule-value {
+        background: $whiteColor;
+        padding: 16px;
+        border-radius: 15px;
+
+        .values {
+          border-bottom: 1px solid $navBorderColor;
+
+          .process-value {
+            margin-bottom: 16px;
+            font-size: 18px;
+            color: $notificationTextColor;
+
+            .process-value-price {
+              font-size: 16px;
+              float: left;
+            }
+          }
+        }
+
+        .schedule-total {
+          margin-top: 16px;
+          font-size: 18px;
+          color: $mainColor;
+          font-family: "Bold", sans-serif;
+
+          .schedule-total-price {
+            float: left;
+            font-size: 16px;
+          }
+        }
+      }
+
+      .schedule-total-btn {
+        display: block;
+        margin: 24px auto 0;
+        padding: 12px 64px;
+        background: linear-gradient(to top, $mainColor, $secondaryColor);
+        font-size: 16px;
+        color: $whiteColor;
+        border: none;
+        border-radius: 32px 32px 32px 0;
+        font-family: "Bold", sans-serif;
+      }
+    }
+  }
+}

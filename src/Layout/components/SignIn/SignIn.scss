@@ -1,0 +1,142 @@
+@import "../../styles/variables";
+
+#sign-in {
+  margin: 35px 0;
+
+  @media (max-width: 1200px) {
+    margin-top: 400px;
+  }
+
+  @media (max-width: 992px) {
+    margin-top: 0;
+  }
+
+  .container {
+    margin-top: 35px;
+
+    .row {
+      .col-lg-6 {
+        .logo {
+          img {
+            width: 400px;
+            margin: 90px auto;
+
+            @media (max-width: 992px) {
+              margin-top: 64px;
+              display: block;
+              text-align: center;
+            }
+
+            @media (max-width: 449px) {
+              display: none;
+            }
+          }
+        }
+
+        .content {
+          @media (max-width: 992px) {
+            margin-top: 128px;
+          }
+
+          .content-desc {
+            @media (max-width: 992px) {
+              text-align: center;
+            }
+
+            .content-title {
+              font-size: 32px;
+              margin-bottom: 32px;
+
+              @media (max-width: 320px) {
+                font-size: 24px;
+              }
+            }
+
+            .content-subtitle {
+              font-size: 24px;
+              margin-bottom: 8px;
+
+              @media (max-width: 320px) {
+                font-size: 18px;
+              }
+            }
+
+            .content-create {
+              font-size: 18px;
+              margin-bottom: 24px;
+
+              a {
+                color: $secondaryColor;
+              }
+            }
+          }
+
+          .content-form {
+            form {
+              .input-form-content {
+                margin-bottom: 16px;
+
+                .input-name {
+                  display: block;
+                  margin-bottom: 8px;
+                  font-size: 14px;
+                }
+
+                .input-type {
+                  height: 62px;
+                  width: 579px;
+                  border-color: $borderColor;
+                  border-radius: 10px;
+                  outline: none;
+                  padding: 0 24px;
+
+                  @media (max-width: 1200px) {
+                    width: 450px;
+                  }
+
+                  @media (max-width: 992px) {
+                    text-align: right;
+                    width: 700px;
+                  }
+
+                  @media (max-width: 449px) {
+                    width: 380px;
+                  }
+
+                  @media (max-width: 375px) {
+                    width: 350px;
+                  }
+
+                  @media (max-width: 320px) {
+                    width: 290px;
+                  }
+                }
+              }
+            }
+
+            .forget-password {
+              display: block;
+              font-size: 12px;
+              margin: 8px 0 24px;
+              color: $secondaryColor;
+            }
+
+            .btn-assign {
+              padding: 12px 64px;
+              background: linear-gradient(to top, $mainColor, $secondaryColor);
+              font-size: 14px;
+              color: $whiteColor;
+              border: none;
+              border-radius: 32px 32px 32px 0;
+              font-family: "Bold", sans-serif;
+
+              @media (max-width: 992px) {
+                margin-bottom: 32px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

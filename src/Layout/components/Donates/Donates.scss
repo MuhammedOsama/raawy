@@ -1,0 +1,101 @@
+@import "../../styles/variables";
+
+#donates {
+  text-align: center;
+  background-color: $backgroundColor;
+  padding: 70px;
+  margin-bottom: 70px;
+  border-top: 1px solid $navBorderColor;
+  border-bottom: 1px solid $navBorderColor;
+
+  @media (max-width: 1200px) {
+    padding: 70px 24px;
+  }
+
+  @media (max-width: 320px) {
+    padding: 70px 16px;
+  }
+
+  .main-heading {
+    h2 {
+      font-weight: normal;
+      font-size: 32px;
+      position: relative;
+      text-transform: uppercase;
+      font-family: "Bold", sans-serif;
+      margin-bottom: 40px;
+    }
+
+    h2:before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 5px;
+      background-color: $mainHeadingLine;
+      bottom: -16px;
+      width: 128px;
+      border-radius: 10px;
+    }
+  }
+
+  .col-lg-2 {
+    @media (max-width: 992px) {
+      margin-bottom: 16px;
+    }
+    
+    .item-link {
+      text-decoration: none;
+
+      .card {
+        padding: 16px 0;
+        border: none;
+        box-shadow: 1px 1px 10px 1px $navBorderColor;
+
+        .card-img {
+          display: block;
+          margin: auto;
+          width: 100px;
+        }
+
+        .card-title {
+          margin: 16px 0 0;
+          color: $blackColor;
+          font-size: 16px;
+          font-family: "Bold", sans-serif;
+        }
+      }
+    }
+
+    //.item-link {
+    //  text-decoration: none;
+    //
+    //  .card {
+    //    padding: 16px;
+    //    border: none;
+    //    box-shadow: 1px 1px 10px 1px $navBorderColor;
+    //
+    //    .card-heading {
+    //      display: flex;
+    //      align-items: center;
+    //      color: $blackColor;
+    //
+    //      .logo {
+    //        img {
+    //          width: 100px;
+    //          margin-left: 16px;
+    //        }
+    //      }
+    //
+    //      .card-content {
+    //
+    //        .card-content-title {
+    //          font-size: 16px;
+    //          font-family: "Bold", sans-serif;
+    //        }
+    //      }
+    //    }
+    //  }
+    //}
+  }
+}
